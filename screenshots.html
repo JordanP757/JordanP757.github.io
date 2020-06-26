@@ -48,9 +48,18 @@
 
 
 		</article>
-<footer>
+		
+		<!-- this footer will be on ever page -->
+		<footer>
+			
 			<small>Copyright &copy; Jordan Poole 2020</small>
-		</footer>
+			<small><p id="Date"></p></small>
 
+			<script>
+				var d = new Date();
+				document.getElementById("Date").innerHTML = d;
+			</script>
+		
+		</footer>
 </body>
 </html>

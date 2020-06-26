@@ -12,8 +12,8 @@
 			<h1> Welcome to Kingdom's Fall</h1>
 		</header>
 
-		<!-- Main Content of the Home Page -->
 
+		<!--This Nav bar and its CSS will be the same for ever page for the website -->
 		
 		<nav id="main-nav">
 			<ul>
@@ -25,6 +25,8 @@
 			</ul>
 		</nav>
 
+		<!-- This is the main content for the home page -->
+
 		<article id="main-content">
 
 			<p> Welcome to Kingdom's Fall! This is a college project that started at the beginning of the year. This website has been specifcally made to promote the game and show clips of gameplay, screenshots of development, a walkthrough of the first level and an F&Q.
@@ -35,12 +37,21 @@
 
 			<p> Please follow use the Navigation Bar at the top of the screen to direct your way around the website.</p>
 
+			<a href="Kingdom Fall.zip"> Click this to download the file </a>
+
 		</article>
 
 
+		<!-- this footer will be on ever page -->
 		<footer>
 			
 			<small>Copyright &copy; Jordan Poole 2020</small>
+			<small><p id="Date"></p></small>
+
+			<script>
+				var d = new Date();
+				document.getElementById("Date").innerHTML = d;
+			</script>
 		
 		</footer>
 

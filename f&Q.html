@@ -45,15 +45,21 @@
 				Yes, thanks to Construct 2, I am able to change around events, add new events </li>
 
  			</ul>
- 		</div	
+ 		</div>	
 
 
 
-
+		<!-- this footer will be on ever page -->
 		<footer>
+			
 			<small>Copyright &copy; Jordan Poole 2020</small>
+			<small><p id="Date"></p></small>
+
+			<script>
+				var d = new Date();
+				document.getElementById("Date").innerHTML = d;
+			</script>
+		
 		</footer>
-
-
 </body>
 </html>
